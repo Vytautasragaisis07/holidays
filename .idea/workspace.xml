@@ -1,7 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ba829ec-be26-4475-b4de-04a9f46b1f9a" name="Default Changelist" comment="" />
+    <list default="true" id="5ba829ec-be26-4475-b4de-04a9f46b1f9a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Holiday.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HolidaysController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_03_02_210817_create_holidays_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/accents/danger.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/accents/danger.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/accents/info.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/accents/info.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/accents/secondary.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/accents/secondary.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/accents/success.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/accents/success.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/accents/warning.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/accents/warning.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/extras.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/avatars/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/avatars/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/avatars/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/avatars/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/avatars/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/content-management/1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/content-management/10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/content-management/11.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/content-management/12.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/content-management/13.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/content-management/14.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/content-management/15.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/content-management/16.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/content-management/2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/content-management/3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/content-management/4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/content-management/5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/content-management/6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/content-management/7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/content-management/8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/content-management/9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/control.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/shards-dashboards-logo-danger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/shards-dashboards-logo-info.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/shards-dashboards-logo-secondary.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/shards-dashboards-logo-success.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/shards-dashboards-logo-warning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/images/shards-dashboards-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_custom-sliders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_overrides.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/accent-variations/danger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/accent-variations/info.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/accent-variations/secondary.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/accent-variations/success.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/accent-variations/warning.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/blocks/_main-content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/blocks/_main-footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/blocks/_main-navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/blocks/_main-sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/blocks/_page-header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/components/_card-post.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/components/_error.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/plugins/_quill.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/shards-dashboards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/templates/_blog-add-new-post.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/templates/_blog-overview.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/templates/_common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/utilities/_general.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/shards-dashboards.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/shards-dashboards.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatars/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatars/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatars/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatars/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatars/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/11.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/12.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/13.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/14.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/15.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/16.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/control.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shards-dashboards-logo-danger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shards-dashboards-logo-info.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shards-dashboards-logo-secondary.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shards-dashboards-logo-success.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shards-dashboards-logo-warning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shards-dashboards-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app/app-blog-new-post.1.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app/app-blog-new-post.1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app/app-blog-overview.1.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app/app-blog-overview.1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app/app-components-overview.1.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app/app-components-overview.1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/extras.1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/shards-dashboards.1.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/shards-dashboards.1.1.0.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/shards-dashboards.1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/holiday/_partials/dashboard.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/holiday/_partials/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/holiday/_partials/user.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/holiday/main.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/holiday/pages/add-holiday.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/holiday/pages/control-holiday.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/holiday/pages/edit-holiday.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/holiday/pages/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/holiday/pages/warning-holiday.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/channels.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/channels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +156,9 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -120,6 +260,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1ZWLCVehUKKU17M1dKJJM6u79mA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -128,10 +269,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.vagrant" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jucyf\projects\code\laravelreact\public" />
+      <recent name="C:\Users\jucyf\projects\code\laravelreact\storage\app\public" />
+      <recent name="C:\Users\jucyf\projects\code\laravelreact\routes" />
+      <recent name="C:\Users\jucyf\projects\code\laravelreact\resources\views" />
+      <recent name="C:\Users\jucyf\projects\code\laravelreact\public\js" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -150,7 +300,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584949775691</updated>
       <workItem from="1584949777819" duration="5977000" />
-      <workItem from="1584967637692" duration="3347000" />
+      <workItem from="1584967637692" duration="6837000" />
     </task>
     <servers />
   </component>
@@ -158,10 +308,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1584976120716">
+    <state x="690" y="276" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1584983432954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584976120716" />
+    <state x="690" y="276" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584983432954" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1584979737403">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584979737403" />
     <state width="817" height="281" key="GridCell.Tab.0.bottom" timestamp="1584957953248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
