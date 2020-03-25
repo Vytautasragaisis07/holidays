@@ -10,8 +10,8 @@ class Holidays extends Component {
         };
     }
         componentDidMount() {
-            axios.get('/api/all-holidays')
-                .then(response => response.json()){
+            axios.get("/api/holiday/" + this.props.match.id)
+                .then(response => {
                 this.setState({
                     Holidays: response.data
                 });
