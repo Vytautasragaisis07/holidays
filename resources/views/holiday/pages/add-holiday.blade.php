@@ -18,9 +18,9 @@
                 @csrf
                 <div class="row justify-content-center">
                     <div class="col-md-7 mb-5">
-
+                        <div class="row justify-content-center">
                         <h3 class="mb-4 text-black">Pridėkite Kelionę</h3>
-
+                        </div>
                         <div class="row form-group">
 
                             <div class="col-md-12">
@@ -45,7 +45,9 @@
 
                         <div class="row form-group">
                             <div class="col-md-12">
+                                <div class="row justify-content-center">
                                 <input type="submit" value="Pridėti" class="btn btn-primary py-2 px-4 text-white">
+                                </div>
                             </div>
                         </div>
 

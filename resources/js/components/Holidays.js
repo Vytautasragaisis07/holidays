@@ -10,11 +10,8 @@ class Holidays extends Component {
         };
     }
         componentDidMount() {
-            axios.get("/api/all-holidays/")
-                .then(response => {
-                this.setState({
-                    Holidays: response.data
-                });
+            axios.get("/api/holiday/" + this.props.match.id).then(response => {
+                this.setState({Holidays: response.data[0]});
             }).catch(errors => {
                 console.log(errors);
             })

@@ -25,13 +25,15 @@
                             <td>{{$holiday->title}}</td>
                             <td>{{$holiday->description}}</td>
                             <td><a href="/warning-holiday/{{$holiday->id}}">Šalinti</a></td>
-                            <td><a href="/edit-product/holiday/{{$holiday->id}}">Redaguoti</a></td>
+                            <td><a href="/edit-holiday/holiday/{{$holiday->id}}">Redaguoti</a></td>
                         </tr>
                     @endforeach
                     </tbody>
                 </table>
-                <div class="buton">
+                <div class="container">
+                    <div class="row justify-content-center">
                     <a class="btn btn-primary" href="/add-holiday" role="button">Pridėti kelionę</a>
+                    </div>
                 </div>
                 <br>
             </div>

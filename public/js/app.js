@@ -69844,9 +69844,9 @@ var Holidays = /*#__PURE__*/function (_Component) {
     value: function componentDidMount() {
       var _this2 = this;
 
-      axios__WEBPACK_IMPORTED_MODULE_2___default.a.get("/api/all-holidays/").then(function (response) {
+      axios__WEBPACK_IMPORTED_MODULE_2___default.a.get("/api/holiday/" + this.props.match.id).then(function (response) {
         _this2.setState({
-          Holidays: response.data
+          Holidays: response.data[0]
         });
       })["catch"](function (errors) {
         console.log(errors);
