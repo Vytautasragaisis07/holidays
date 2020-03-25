@@ -10,8 +10,8 @@ export default class Index extends Component{
             <div className="container">
                 <Router>
                     <div>
-                        <Link to="/">Home</Link>
-                        <Link to="/holidays">Holidays</Link>
+                        <Link to="/">Pagrindinis</Link>
+                        <Link to="/holidays">Kelionės</Link>
                         <Route path="/" exact component={Example}/>
                         <Route path="/holidays" exact component={Holidays}/>
                     </div>
