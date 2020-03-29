@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5ba829ec-be26-4475-b4de-04a9f46b1f9a" name="Default Changelist" comment="initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Holidays.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Holidays.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +140,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/frontend/React_shop_task" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.vagrant" />
@@ -176,6 +175,8 @@
       <workItem from="1585037170316" duration="16606000" />
       <workItem from="1585120755907" duration="3166000" />
       <workItem from="1585151037637" duration="4094000" />
+      <workItem from="1585212119057" duration="2447000" />
+      <workItem from="1585523762127" duration="1217000" />
     </task>
     <servers />
   </component>
